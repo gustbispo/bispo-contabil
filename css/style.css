@@ -62,7 +62,7 @@ footer {
 }
 
 .home {
-  background-image: url("/assets/img/calculator.jpg");
+  background-image: url("../assets/img/calculator.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
