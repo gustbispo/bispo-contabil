@@ -103,7 +103,7 @@ footer {
   background-color: rgba(12, 44, 86, 0.6);
 }
 
-.services {
+.servicos {
   text-align: center;
   padding: 75px 0px;
 }
@@ -133,7 +133,7 @@ footer {
   cursor: pointer;
 }
 
-.about {
+.sobre {
   background-color: #212529;
   /* height: 1200px; */
   display: flex;
