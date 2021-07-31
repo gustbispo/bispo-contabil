@@ -1,0 +1,310 @@
+@media only screen and (max-width: 450px) {
+  .hide {
+    display: none;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+  .main-text {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .main-text {
+    display: none !important;
+  }
+}
+
+/* @media only screen and (max-width: 993px) {
+    main {
+        justify-content: center !important;
+    }
+} */
+
+li {
+  margin: 0px 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1rem;
+}
+
+#whatsapp {
+  margin: 20px;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title:hover {
+  opacity: 70%;
+}
+
+.logo {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.logo:hover {
+  color: black;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.home {
+  background-image: url("/assets/img/calculator.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 64.39px);
+}
+
+.context {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  z-index: 1;
+}
+
+.rectangle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  position: absolute;
+  height: 40%;
+  width: 280px;
+  right: 0;
+  border-radius: 80px 0px 0px 80px;
+  z-index: 1;
+}
+
+.main-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 64.39px);
+  padding: 0rem 4rem;
+  z-index: 1;
+  background-color: rgba(12, 44, 86, 0.6);
+}
+
+.services {
+  text-align: center;
+  padding: 75px 0px;
+}
+
+.links {
+  text-align: center;
+  padding: 75px 0px 0px 0px;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 4rem 2.5rem 2.5rem 2.5rem;
+}
+
+.card, .grow {
+  transition: all .2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.grow:hover, #whatsapp {
+  cursor: pointer;
+}
+
+.about {
+  background-color: #212529;
+  /* height: 1200px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 75px 0px;
+}
+
+.img-border {
+  background-color: white;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  text-align: justify;
+}
+
+.lead {
+  padding: 0px 50px;
+  text-indent: 1.5em;
+}
+
+.bubbles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.bubble {
+  position: absolute;
+  bottom: -100px;
+  width: 40px;
+  height: 40px;
+  background: #f1f1f1;
+  border-radius: 50%;
+  opacity: 0.5;
+  animation: rise 10s infinite ease-in;
+}
+
+.bubble:nth-child(1) {
+  width: 40px;
+  height: 40px;
+  left: 10%;
+  animation-duration: 8s;
+}
+
+.bubble:nth-child(2) {
+  width: 20px;
+  height: 20px;
+  left: 20%;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+
+.bubble:nth-child(3) {
+  width: 50px;
+  height: 50px;
+  left: 35%;
+  animation-duration: 7s;
+  animation-delay: 2s;
+}
+
+.bubble:nth-child(4) {
+  width: 80px;
+  height: 80px;
+  left: 50%;
+  animation-duration: 11s;
+  animation-delay: 0s;
+}
+
+.bubble:nth-child(5) {
+  width: 35px;
+  height: 35px;
+  left: 55%;
+  animation-duration: 6s;
+  animation-delay: 1s;
+}
+
+.bubble:nth-child(6) {
+  width: 45px;
+  height: 45px;
+  left: 65%;
+  animation-duration: 8s;
+  animation-delay: 3s;
+}
+
+.bubble:nth-child(7) {
+  width: 90px;
+  height: 90px;
+  left: 70%;
+  animation-duration: 12s;
+  animation-delay: 2s;
+}
+
+.bubble:nth-child(8) {
+  width: 25px;
+  height: 25px;
+  left: 80%;
+  animation-duration: 6s;
+  animation-delay: 2s;
+}
+
+.bubble:nth-child(9) {
+  width: 15px;
+  height: 15px;
+  left: 70%;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+
+.bubble:nth-child(10) {
+  width: 90px;
+  height: 90px;
+  left: 25%;
+  animation-duration: 10s;
+  animation-delay: 4s;
+}
+
+@keyframes rise {
+  0% {
+    bottom: -100px;
+    transform: translateX(0);
+  }
+  50% {
+    transform: translate(100px);
+  }
+  100% {
+    bottom: 1080px;
+    transform: translateX(-200px);
+  }
+}
+
+.modal-body {
+  text-align: justify;
+}
+
+.right {
+  text-align:right;
+}
+
+.items {
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.tel, .mail, .end {
+  text-decoration: none;
+}
+
+.footer-content {
+  margin: 30px;
+}
+
+.fixed-bottom {
+  width: 50px;
+}
+
